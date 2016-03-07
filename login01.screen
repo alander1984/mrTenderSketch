@@ -7,7 +7,7 @@
     <screen xsi:type="model:Screen" href="assets/Bootstrap/Templates/Signin.screen#/"/>
     <overrides>
       <widgets ref="1/5" text="Пожалуйста авторизуйтесь"/>
-      <widgets ref="2/1" width="386" text="~Email бля~"/>
+      <widgets ref="2/1" width="386" text="~Email~"/>
       <widgets ref="3/1" width="386" text="~Пароль~"/>
       <widgets ref="4/18" text="Запомнить"/>
       <widgets ref="5/47" width="386" text="Войти"/>

@@ -10,7 +10,10 @@
         <widgets ref="20" width="1280"/>
         <widgets ref="25" x="736" y="2"/>
         <widgets ref="21" text="mrTender"/>
-        <widgets ref="19" x="136" y="3"/>
+        <widgets ref="19" x="136" y="3" text="Срочное, Link, Dropdown {desc}">
+          <attributes key="selection" value="-1"/>
+          <items ref="@items.0" text="Срочное"/>
+        </widgets>
         <widgets ref="28" x="373" y="8" text="~Поиск~"/>
         <widgets ref="24" x="520" y="8" text="Найти"/>
       </overrides>
@@ -21,7 +24,7 @@
         <widgets ref="44" text="user@mail.ru"/>
       </overrides>
     </widgets>
-    <widgets xsi:type="model:Master" id="5" x="1205" y="8" measuredWidth="62" measuredHeight="34">
+    <widgets xsi:type="model:Master" id="5" x="1205" y="8" measuredWidth="62" measuredHeight="34" link="login01.screen">
       <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button"/>
       <overrides>
         <widgets ref="21" text="Выход"/>
@@ -81,6 +84,7 @@
     </overrides>
   </widgets>
   <widgets xsi:type="model:Hotspot" id="18" x="392" y="278" width="877" measuredWidth="877" measuredHeight="30" link="ViewActionModal01.screen"/>
+  <widgets xsi:type="model:Hotspot" id="19" y="288" width="368" height="90" measuredWidth="368" measuredHeight="90" link="mainWithActivity01.screen"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
