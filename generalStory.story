@@ -9,7 +9,10 @@
   <panels id="d_R5_YU25DEjPR1s55HGxXeM4V4=" x="675" y="75">
     <screen href="mainWithActivity01.screen#/"/>
   </panels>
-  <panels id="Le8RIXQ0reX0S9L4ll9mnVfis8I=" x="975" y="75">
+  <panels id="UaJ2Ar_V2yH_ouyutLpCRY9b-wg=" x="975" y="75">
+    <screen href="mainWithActivity02Stages01.screen#/"/>
+  </panels>
+  <panels id="Le8RIXQ0reX0S9L4ll9mnVfis8I=" x="75" y="375">
     <screen href="ViewActionModal01.screen#/"/>
   </panels>
 </story:Storyboard>
