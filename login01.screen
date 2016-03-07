@@ -3,7 +3,7 @@
   <widgets xsi:type="model:Browser" id="2" width="1280" height="1024" text="Browser&#xA;http://..." measuredWidth="1280" measuredHeight="1024">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Master" id="3" x="470" y="230" measuredWidth="387" measuredHeight="213" link="main01.screen">
+  <widgets xsi:type="model:Master" id="3" x="470" y="230" measuredWidth="387" measuredHeight="213">
     <screen xsi:type="model:Screen" href="assets/Bootstrap/Templates/Signin.screen#/"/>
     <overrides>
       <widgets ref="1/5" text="Пожалуйста авторизуйтесь"/>
@@ -13,7 +13,7 @@
       <widgets ref="5/47" width="386" text="Войти"/>
       <widgets ref="2" width="386"/>
       <widgets ref="3" width="386"/>
-      <widgets ref="5" width="386"/>
+      <widgets ref="5" width="386" link="main01.screen"/>
     </overrides>
   </widgets>
   <hRuler/>
