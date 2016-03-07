@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" measuredWidth="1282" measuredHeight="1024">
+    <screen xsi:type="model:Screen" href="mainWithActivity01.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="29"/>
+      <widgetChanges xsi:type="o:Delete" ref="28"/>
+      <widgetChanges xsi:type="o:Delete" ref="24"/>
+      <widgetChanges xsi:type="o:Delete" ref="21"/>
+      <widgetChanges xsi:type="o:Delete" ref="17"/>
+      <widgetChanges xsi:type="o:Delete" ref="13"/>
+      <widgetChanges xsi:type="o:Delete" ref="12"/>
+      <widgetChanges xsi:type="o:Delete" ref="10"/>
+      <widgetChanges xsi:type="o:Delete" ref="9"/>
+      <widgets ref="7" y="113" height="80"/>
+      <widgets ref="7/2" width="915" height="80"/>
+      <widgets ref="7">
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.2"/>
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.1"/>
+      </widgets>
+      <widgets ref="11" x="377" y="205"/>
+      <widgets ref="11/17" width="889" height="104"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="5" x="392" y="128" measuredWidth="248" measuredHeight="50">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h2.%20Heading"/>
+    <overrides>
+      <widgets ref="5" text="Перчатки 12 %(font:20)~Этапы~%"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
