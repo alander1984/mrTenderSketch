@@ -13,23 +13,23 @@
       <widgets ref="109" width="1288" height="1024"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="13" x="232" y="52" measuredWidth="784" measuredHeight="699">
-    <widgets xsi:type="model:Master" id="5" height="699" measuredWidth="784" measuredHeight="699">
+  <widgets xsi:type="model:WidgetGroup" id="13" x="232" y="52" height="788" measuredWidth="784" measuredHeight="788">
+    <widgets xsi:type="model:Master" id="5" height="788" measuredWidth="784" measuredHeight="788">
       <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Modal"/>
       <overrides>
         <widgetChanges xsi:type="o:Delete" ref="102"/>
-        <widgets ref="94" width="784" height="699"/>
+        <widgets ref="94" width="784" height="788"/>
         <widgets ref="95" width="784"/>
         <widgets ref="97" x="755" link="main01.screen"/>
-        <widgets ref="98" y="620" width="784"/>
+        <widgets ref="98" y="709" width="784"/>
         <widgets ref="100" x="8" y="8" text="Подача заявки на конкурс">
           <font size="28px"/>
         </widgets>
-        <widgets ref="104" x="608" y="643" text="Закрыть" link="main01.screen"/>
-        <widgets ref="106" x="696" y="643" text="Принять"/>
+        <widgets ref="104" x="608" y="732" text="Закрыть" link="main01.screen"/>
+        <widgets ref="106" x="696" y="732" text="Принять"/>
       </overrides>
     </widgets>
-    <widgets xsi:type="model:Master" id="12" x="16" y="108" measuredWidth="528" measuredHeight="50">
+    <widgets xsi:type="model:Master" id="12" x="16" y="124" measuredWidth="528" measuredHeight="50">
       <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h2.%20Heading"/>
       <overrides>
         <widgets ref="5" text="Обучающие материалы 553.12 %(font:20)~Конкурс~%"/>
@@ -74,11 +74,11 @@
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="29" x="258" y="316" height="348" measuredWidth="742" measuredHeight="348">
+  <widgets xsi:type="model:Master" id="29" x="258" y="316" height="428" measuredWidth="742" measuredHeight="428">
     <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Panel"/>
     <overrides>
       <widgetChanges xsi:type="o:Delete" ref="34"/>
-      <widgets ref="93" width="742" height="348"/>
+      <widgets ref="93" width="742" height="428"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="30" x="273" y="348" measuredWidth="108" measuredHeight="29">
@@ -90,7 +90,56 @@
   <widgets xsi:type="model:Master" id="38" x="392" y="340" width="184" measuredWidth="184" measuredHeight="45">
     <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Forms.screen#Select"/>
     <overrides>
-      <widgets ref="24" width="184"/>
+      <widgets ref="24" width="184" text="Орлов И.А."/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="42" x="273" y="392" measuredWidth="71" measuredHeight="29">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h5.%20Heading"/>
+    <overrides>
+      <widgets ref="14" text="Описание"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="43" x="356" y="392" height="81" measuredWidth="636" measuredHeight="81">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Forms.screen#Text%20Area"/>
+    <overrides>
+      <widgets ref="16" width="636" height="81" text="Необходимо подготовить заявку по форме, приложенной в документы текущего действия. Консультироваться можно с Харламовым Е."/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="44" x="266" y="533" height="202" measuredWidth="725" measuredHeight="202">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Table"/>
+    <overrides>
+      <widgets ref="51" width="725" height="202" text="#, Действие, Через, Описание&#xA;1, Вскрытие конвертов, 3, По адресу ул. Ново-Садова 15-3&#xA;2, Отправка письма, 1, Увдомить об отправке заявки&#xA;3, Контроль принятия заявки, 4, Звонок по телефону (846)445-44-34"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="45" x="740" y="348" measuredWidth="52" measuredHeight="29">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h5.%20Heading"/>
+    <overrides>
+      <widgets ref="14" text="Статус"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="46" x="808" y="340" measuredWidth="184" measuredHeight="45">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Forms.screen#Select"/>
+    <overrides>
+      <widgets ref="24" width="184" text="В работе"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="48" x="266" y="489" measuredWidth="449" measuredHeight="45">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Navigation.screen#Tabs"/>
+    <overrides>
+      <widgets ref="2" text="Выполнено в срок, Просрочено, Провал, Безусловно">
+        <items ref="@items.0" text="Выполнено в срок"/>
+        <items ref="@items.1" text="Просрочено"/>
+        <items ref="@items.2" text="Провал"/>
+        <itemChanges xsi:type="o:Insert" newIndex="3">
+          <object xsi:type="model:Item" text="Безусловно"/>
+        </itemChanges>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="51" x="256" y="784" measuredWidth="202" measuredHeight="34">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button"/>
+    <overrides>
+      <widgets ref="21" text="Переместить в другой этап"/>
     </overrides>
   </widgets>
   <hRuler/>

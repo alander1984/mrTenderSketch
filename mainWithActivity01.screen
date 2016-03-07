@@ -21,13 +21,13 @@
       <widgets ref="14" text="~Максимальная срочность, внимание к документам. Обеспечение 16%~"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="7" x="367" y="104" width="697" measuredWidth="697" measuredHeight="312">
+  <widgets xsi:type="model:Master" id="7" x="367" y="152" height="264" measuredWidth="697" measuredHeight="264">
     <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Jumbotron"/>
     <overrides>
-      <widgets ref="2" width="697"/>
-      <widgets ref="5" width="564" text="Этап:  отгрузака товара&#xA;Просрочка текущего этапа: 1 день"/>
+      <widgetChanges xsi:type="o:Delete" ref="5"/>
+      <widgets ref="2" width="697" height="264"/>
       <widgets ref="4" text="Перчатки 12"/>
-      <widgets ref="7" text="Печать карточки активности в PDF"/>
+      <widgets ref="7" y="162" text="Печать карточки активности в PDF"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="9" x="568" y="438" measuredWidth="59" measuredHeight="34">
@@ -42,31 +42,31 @@
       <widgets ref="9" text="Последие сообщения и переписка"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="11" x="384" y="471" height="146" measuredWidth="441" measuredHeight="146">
+  <widgets xsi:type="model:Master" id="11" x="384" y="471" width="425" measuredWidth="425" measuredHeight="146">
     <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Body%20Copy"/>
     <overrides>
-      <widgets ref="17" width="441" height="146"/>
+      <widgets ref="17" width="425" height="146" text="Текущий этап длится 3 дня, до завершения 6 дней. Текущее действие: подготовка заявки на конкурс, ответственный Овлов И. Просрочка текущего задания: 1 день. &#xA;Ожидается публикация конкурса на электронной площадке  www.tender.ru&#xA;До завершения 3 этапа с общей длительностью 40 календарных дней"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="12" x="824" y="471" height="146" measuredWidth="441" measuredHeight="146">
+  <widgets xsi:type="model:Master" id="12" x="840" y="471" width="425" measuredWidth="425" measuredHeight="146">
     <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#Body%20Copy"/>
     <overrides>
-      <widgets ref="17" width="441" height="146"/>
+      <widgets ref="17" width="425" height="146" text="Входящее от 15:23 15.02.16 от serebriakov@rzd.ru: &quot;Прошу рассмотреть возможность отгрузки без предо ...&quot; &#xA;Исходящее от 14:12 15.02.16 для serebriakov@rzd.ru &quot;У нас возникли проблемы ...&quot;&#xA;Внутреннее сообщение: срочно оплатить контрагентам отгрузку"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="13" x="1063" y="104" width="217" measuredWidth="217" measuredHeight="312">
     <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#List%20Group"/>
     <overrides>
       <widgets ref="197" width="217" height="312"/>
-      <widgets ref="195" x="13" y="6" width="181" height="298" text="e-mail's&#xA;Действия&#xA;События&#xA;-&#xA;-&#xA;-&#xA;В корзину">
+      <widgets ref="195" x="13" y="6" width="181" height="298" text="e-mail's&#xA;Действия&#xA;События&#xA;Контакты&#xA;Заметки (4)&#xA;Файлы (2)&#xA;В корзину/удалить">
         <items ref="@items.0" text="e-mail's"/>
         <items ref="@items.2" text="Действия"/>
         <items ref="@items.3" text="События"/>
-        <items ref="@items.4" text="-"/>
-        <items ref="@items.5" text="-"/>
-        <items ref="@items.6" text="-"/>
+        <items ref="@items.4" text="Контакты"/>
+        <items ref="@items.5" text="Заметки (4)"/>
+        <items ref="@items.6" text="Файлы (2)"/>
         <itemChanges xsi:type="o:Insert" newIndex="7">
-          <object xsi:type="model:Item" text="В корзину"/>
+          <object xsi:type="model:Item" text="В корзину/удалить"/>
         </itemChanges>
         <itemChanges xsi:type="o:Delete" ref="@items.1"/>
       </widgets>
@@ -77,6 +77,22 @@
     <overrides>
       <widgets ref="35" height="45" text="Добавить действие">
         <font size="18px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="21" x="377" y="640" measuredWidth="880" measuredHeight="189">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Table%20Contextual"/>
+    <overrides>
+      <widgets ref="55" width="880" text="#, Время до окончания, Дата события, Событие, Этап, Ответственный&#xA;(bg:#f5f5f5)|1, 4 часа , 01.05.16, Подготовка заявки на конкурс, Конкурс, Орлов И&#xA;2, 1 день, 02.05.16, Подача заявки на конкурс, Конкурс, Конкурс, Орлов И&#xA;(bg:#dff0d8)|3, 2 дня, 03.05.16, Отгрузка товара, Исполнение договора, Кузнецов М&#xA;4, 10 день, 11.05.16, Подготовка закрывающих документов , Закрытие, Орлов И&#xA;"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="24" x="367" y="110" width="370" measuredWidth="370" measuredHeight="43">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button%20Group"/>
+    <overrides>
+      <widgets ref="3" width="370" text="Новая заметка, Отправить сообщение">
+        <items ref="@items.1" text="Новая заметка"/>
+        <items ref="@items.2" text="Отправить сообщение"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.0"/>
       </widgets>
     </overrides>
   </widgets>
