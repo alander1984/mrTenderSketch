@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" measuredWidth="1280" measuredHeight="1024" dimmed="true">
+    <screen xsi:type="model:Screen" href="main01.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="18"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="14" x="-8" y="-5" width="1296" height="1029" measuredWidth="1296" measuredHeight="1029">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Modal%20Background"/>
+    <overrides>
+      <widgets ref="109" width="1296" height="1029"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="13" x="232" y="52" measuredWidth="784" measuredHeight="699">
+    <widgets xsi:type="model:Master" id="5" height="699" measuredWidth="784" measuredHeight="699">
+      <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Modal"/>
+      <overrides>
+        <widgetChanges xsi:type="o:Delete" ref="102"/>
+        <widgets ref="94" width="784" height="699"/>
+        <widgets ref="95" width="784"/>
+        <widgets ref="97" x="755" link="main01.screen"/>
+        <widgets ref="98" y="620" width="784"/>
+        <widgets ref="100" text="Подача заявки на конкурс"/>
+        <widgets ref="104" x="608" y="643" text="Закрыть"/>
+        <widgets ref="106" x="696" y="643" text="Принять"/>
+      </overrides>
+    </widgets>
+    <widgets xsi:type="model:Master" id="12" x="26" y="74" measuredWidth="528" measuredHeight="50">
+      <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h2.%20Heading"/>
+      <overrides>
+        <widgets ref="5" text="Обучающие материалы 553.12 %(font:20)~Конкурс~%"/>
+      </overrides>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

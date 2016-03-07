@@ -6,4 +6,7 @@
   <panels id="8S39Mb9PZOksc-AwUqpxNI3FKMc=" x="375" y="75">
     <screen href="main01.screen#/"/>
   </panels>
+  <panels id="Le8RIXQ0reX0S9L4ll9mnVfis8I=" x="675" y="75">
+    <screen href="ViewActionModal01.screen#/"/>
+  </panels>
 </story:Storyboard>
