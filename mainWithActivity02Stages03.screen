@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" measuredWidth="1282" measuredHeight="1024">
+    <screen xsi:type="model:Screen" href="mainWithActivity02Stages01.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="7">
+        <object xsi:type="model:Hotspot" id="5" x="1224" y="585" width="24" height="24" link="mainWithActivity02Stages01.screen"/>
+      </widgetChanges>
+      <widgets ref="12" noLink="true"/>
+      <widgets ref="18/53" text="#, Название этапа, Длительность, Действия, Операции&#xA;1, Пресейл, 5, Подготовка КП/Отправка КП/Контрольный звонок, {arrow-up} {arrow-down} {trash}&#xA;2, Подготовка аукциона, 10, Документы на конкурс/Согласование КД, {arrow-up} {arrow-down} {trash}&#xA;3, Конкурс, 15, Заявка/Банковская гарантия/Участие в аукционе, {arrow-up} {arrow-down} {trash}&#xA;4, Закрытие активностей с пост-оплатой, 12, Выплата комиссионных/Вывод налички, {arrow-up} {arrow-down} {trash}"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

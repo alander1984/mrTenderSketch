@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" measuredWidth="1282" measuredHeight="1024">
+    <screen xsi:type="model:Screen" href="mainWithActivity02Stages01.screen#/"/>
+    <overrides>
+      <widgets ref="1/1/3/19">
+        <items ref="@items.0" noLink="true"/>
+      </widgets>
+      <widgets ref="1/1/5" noLink="true"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="8" y="53" measuredWidth="1282" measuredHeight="971">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Modal%20Background"/>
+    <overrides>
+      <widgets ref="109" width="1282" height="971"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="9" x="234" y="104" width="782" measuredWidth="782" measuredHeight="601">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Modal"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="102"/>
+      <widgets ref="94" width="782" height="601"/>
+      <widgets ref="95" width="782"/>
+      <widgets ref="97" x="753" link="mainWithActivity02Stages01.screen"/>
+      <widgets ref="98" y="522" width="782"/>
+      <widgets ref="100" text="Добавление этапа"/>
+      <widgets ref="104" x="606" y="545" text="Закрыть" link="mainWithActivity02Stages01.screen"/>
+      <widgets ref="106" x="694" y="545" text="Принять" link="mainWithActivity02Stages03.screen"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="10" x="250" y="179" measuredWidth="47" measuredHeight="34">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h4.%20Heading"/>
+    <overrides>
+      <widgets ref="9" text="Этап"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="11" x="309" y="173" measuredWidth="290" measuredHeight="45">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Forms.screen#Select"/>
+    <overrides>
+      <widgets ref="24" text="Закрытие актавности с пост-оплатой"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="12" x="624" y="179" measuredWidth="74" measuredHeight="34">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button%20Info"/>
+    <overrides>
+      <widgets ref="39" text="Создать"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="13" x="377" y="240" height="67" measuredWidth="626" measuredHeight="67">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Forms.screen#Text%20Area"/>
+    <overrides>
+      <widgets ref="16" width="626" height="67" text="На этом этапе важно грамотно отметить закрытие этапа, так как именно оно позволяет с полной энергией приступить к следующей активности"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="14" x="250" y="234" measuredWidth="124" measuredHeight="34">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h4.%20Heading"/>
+    <overrides>
+      <widgets ref="9" text="Комментарий"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="15" x="250" y="328" measuredWidth="130" measuredHeight="34">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h4.%20Heading"/>
+    <overrides>
+      <widgets ref="9" text="Крайний срок:"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="16" x="398" y="322" measuredWidth="107" measuredHeight="45">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Forms.screen#Select"/>
+    <overrides>
+      <widgets ref="24" text="15.05.16"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="23" x="256" y="382" width="746" measuredWidth="746" measuredHeight="235">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Table%20Contextual"/>
+    <overrides>
+      <widgets ref="55" width="746" height="235" text="Использовать, Действие, Длительность, Связанные действия&#xA;{unchecked}, Подготовка бух. док-в, 2, Сверка счетов&#xA;{checked}, Выплата комиссионных, 4, отсутствуют&#xA;{unchecked}, Выплата премии, 5, Банкет&#xA;{checked}, Вывод налички, 10, отустствуют"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

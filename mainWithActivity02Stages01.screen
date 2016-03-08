@@ -40,7 +40,7 @@
       <widgets ref="24" width="705" text="Пресейл"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="12" x="1187" y="405" measuredWidth="83" measuredHeight="34">
+  <widgets xsi:type="model:Master" id="12" x="1187" y="405" measuredWidth="83" measuredHeight="34" link="mainWithActivity02Stages02.screen">
     <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button%20Primary"/>
     <overrides>
       <widgets ref="35" text="Добавить"/>
@@ -55,7 +55,17 @@
   <widgets xsi:type="model:Master" id="18" x="377" y="456" width="892" measuredWidth="892" measuredHeight="128">
     <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Table%20Condensed"/>
     <overrides>
-      <widgets ref="53" width="892" text="#, Название этапа, Длительность, Действия, Операции&#xA;1, Пресейл, 5, Подготовка КП/Отправка КП/Контрольный звонок, {arrow-up} {arrow-down} {trash}&#xA;2, Подготовка аукциона, 10, Документы на конкурс/Согласование КД, {arrow-up} {arrow-down} {trash}&#xA;3, Конкурс, 15, Заявка/Банковская гарантия/Участие в аукционе, {arrow-up} {arrow-down} {trash}"/>
+      <widgets ref="53" width="892" text="#, Название этапа, Длительность, Действия, Операции&#xA;1, [Пресейл], 5, Подготовка КП/Отправка КП/Контрольный звонок, {arrow-up} {arrow-down} {trash}&#xA;2, [Подготовка аукциона], 10, Документы на конкурс/Согласование КД, {arrow-up} {arrow-down} {trash}&#xA;3, [Конкурс], 15, Заявка/Банковская гарантия/Участие в аукционе, {arrow-up} {arrow-down} {trash}">
+        <itemChanges xsi:type="o:Insert">
+          <object xsi:type="model:Item" text="Конкурс"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert">
+          <object xsi:type="model:Item" text="Подготовка аукциона"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert">
+          <object xsi:type="model:Item" text="Пресейл"/>
+        </itemChanges>
+      </widgets>
     </overrides>
   </widgets>
   <hRuler/>
