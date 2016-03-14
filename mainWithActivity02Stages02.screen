@@ -15,7 +15,7 @@
       <widgets ref="109" width="1282" height="971"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="9" x="234" y="104" width="782" measuredWidth="782" measuredHeight="601">
+  <widgets xsi:type="model:Master" id="9" x="234" y="53" measuredWidth="782" measuredHeight="601">
     <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Modal"/>
     <overrides>
       <widgetChanges xsi:type="o:Delete" ref="102"/>

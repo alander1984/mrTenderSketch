@@ -4,10 +4,17 @@
     <screen xsi:type="model:Screen" href="mainWithActivity02Stages01.screen#/"/>
     <overrides>
       <widgetChanges xsi:type="o:Insert" newIndex="7">
+        <object xsi:type="model:Hotspot" id="9" x="377" y="521" width="888"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="7">
         <object xsi:type="model:Hotspot" id="5" x="1224" y="585" width="24" height="24" link="mainWithActivity02Stages01.screen"/>
       </widgetChanges>
       <widgets ref="12" noLink="true"/>
-      <widgets ref="18/53" text="#, Название этапа, Длительность, Действия, Операции&#xA;1, Пресейл, 5, Подготовка КП/Отправка КП/Контрольный звонок, {arrow-up} {arrow-down} {trash}&#xA;2, Подготовка аукциона, 10, Документы на конкурс/Согласование КД, {arrow-up} {arrow-down} {trash}&#xA;3, Конкурс, 15, Заявка/Банковская гарантия/Участие в аукционе, {arrow-up} {arrow-down} {trash}&#xA;4, Закрытие активностей с пост-оплатой, 12, Выплата комиссионных/Вывод налички, {arrow-up} {arrow-down} {trash}"/>
+      <widgets ref="18/53" text="#, Название этапа, Длительность, Действия, Операции&#xA;1, Пресейл, 5, Подготовка КП/Отправка КП/Контрольный звонок, {arrow-up} {arrow-down} {trash}&#xA;2, Подготовка аукциона, 10, Документы на конкурс/Согласование КД, {arrow-up} {arrow-down} {trash}&#xA;3, Конкурс, 15, Заявка/Банковская гарантия/Участие в аукционе, {arrow-up} {arrow-down} {trash}&#xA;4, Закрытие активностей с пост-оплатой, 12, Выплата комиссионных/Вывод налички, {arrow-up} {arrow-down} {trash}">
+        <itemChanges xsi:type="o:Delete" ref="@items.2"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.1"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.0"/>
+      </widgets>
     </overrides>
   </widgets>
   <hRuler/>
