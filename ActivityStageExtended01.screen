@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" measuredWidth="1282" measuredHeight="1024">
+    <screen xsi:type="model:Screen" href="mainWithActivity02Stages01.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:VSlider" id="8" x="736" y="462" height="498"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Delete" ref="12"/>
+      <widgetChanges xsi:type="o:Delete" ref="11"/>
+      <widgetChanges xsi:type="o:Delete" ref="9"/>
+      <widgets ref="18" y="462"/>
+      <widgets ref="18/53" width="360" text="#, Название этапа, Длительность&#xA;1, [Пресейл], 5&#xA;2, [Подготовка аукциона], 10&#xA;3, [Конкурс], 15"/>
+      <widgets ref="22" y="520"/>
+      <widgets ref="17/37" x="10" y="0" width="682" height="88" text="10:12 14.02: Выполнение 2-го этапа не обязательно (Орлов И)&#xA;14:51 16.02: Невозможно собрать фидбэк. Заказчик не отвечает (Мухомор И.А)"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="9" x="752" y="464" height="497" measuredWidth="519" measuredHeight="497">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Navigation.screen#Collapse"/>
+    <overrides>
+      <widgets ref="56" width="519" height="497"/>
+      <widgets ref="57" width="477" height="371"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="10" x="377" y="304" measuredWidth="260" measuredHeight="41">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h3.%20Heading"/>
+    <overrides>
+      <widgets ref="7" text="1. Пресейл %(font:16)~до начала 23 дня~%"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="11" x="656" y="304" height="65" measuredWidth="592" measuredHeight="65">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Forms.screen#Text%20Area"/>
+    <overrides>
+      <widgets ref="16" width="592" height="65" text="Необходимо проконтролировать исполнение ключевого действия: сбор фидбэка с Серебрякова А.С."/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="12" x="1088" y="400" measuredWidth="160" measuredHeight="34">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button%20Primary"/>
+    <overrides>
+      <widgets ref="35" text="Оставить сообщение"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="13" x="388" y="376" width="676" height="86" measuredWidth="676" measuredHeight="86" link="ActivityStageExtended02.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

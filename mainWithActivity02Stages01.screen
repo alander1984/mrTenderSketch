@@ -68,6 +68,7 @@
       </widgets>
     </overrides>
   </widgets>
+  <widgets xsi:type="model:Hotspot" id="22" x="377" y="487" width="184" measuredWidth="184" measuredHeight="30" link="ActivityStageExtended01.screen"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

@@ -21,4 +21,13 @@
   <panels id="Le8RIXQ0reX0S9L4ll9mnVfis8I=" x="675" y="375">
     <screen href="ViewActionModal01.screen#/"/>
   </panels>
+  <panels id="eFM2TGserQuGkSzRYnyeYpieS78=" x="975" y="375">
+    <screen href="ActivityStageExtended01.screen#/"/>
+  </panels>
+  <panels id="bG0SG6Dwyjhqnt8Js0k-AP4PLO4=" x="75" y="675">
+    <screen href="ActivityStageExtended02.screen#/"/>
+  </panels>
+  <panels id="Igh3HdMQmZjGCVCSuVrPw4tDYM8=" x="375" y="675">
+    <screen href="mainWithActivity02Stages04.screen#/"/>
+  </panels>
 </story:Storyboard>
