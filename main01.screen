@@ -3,19 +3,21 @@
   <widgets xsi:type="model:Browser" id="1" width="1280" height="1024" text="Browser&#xA;http://..." measuredWidth="1280" measuredHeight="1024">
     <font/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="6" y="52" measuredWidth="1280" measuredHeight="53">
-    <widgets xsi:type="model:Master" id="3" width="1280" measuredWidth="1280" measuredHeight="53">
+  <widgets xsi:type="model:WidgetGroup" id="6" y="52" measuredWidth="1280" measuredHeight="50">
+    <widgets xsi:type="model:Master" id="3" width="1280" measuredWidth="1280" measuredHeight="50">
       <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Navigation.screen#Navbar"/>
       <overrides>
         <widgets ref="20" width="1280"/>
         <widgets ref="25" x="736" y="2"/>
         <widgets ref="21" text="mrTender"/>
-        <widgets ref="19" x="136" y="3" text="Срочное, Link, Dropdown {desc}">
+        <widgets ref="19" x="136" y="3" text="Срочное, Создать {desc}, Администрирование {desc}">
           <attributes key="selection" value="-1"/>
           <items ref="@items.0" text="Срочное"/>
+          <items ref="@items.2" text="Администрирование {desc}"/>
+          <items ref="@items.1" text="Создать {desc}"/>
         </widgets>
-        <widgets ref="28" x="373" y="8" text="~Поиск~"/>
-        <widgets ref="24" x="520" y="8" text="Найти"/>
+        <widgets ref="28" x="528" y="0" text="~Поиск~"/>
+        <widgets ref="24" x="672" y="8" text="Найти"/>
       </overrides>
     </widgets>
     <widgets xsi:type="model:Master" id="4" x="1104" y="12" measuredWidth="89" measuredHeight="29">
@@ -85,6 +87,7 @@
   </widgets>
   <widgets xsi:type="model:Hotspot" id="18" x="392" y="278" width="877" measuredWidth="877" measuredHeight="30" link="ViewActionModal01.screen"/>
   <widgets xsi:type="model:Hotspot" id="19" y="288" width="368" height="90" measuredWidth="368" measuredHeight="90" link="mainWithActivity01.screen"/>
+  <widgets xsi:type="model:Hotspot" id="20" x="232" y="62" measuredWidth="80" measuredHeight="30"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

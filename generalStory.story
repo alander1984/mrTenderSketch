@@ -30,4 +30,10 @@
   <panels id="Igh3HdMQmZjGCVCSuVrPw4tDYM8=" x="375" y="675">
     <screen href="mainWithActivity02Stages04.screen#/"/>
   </panels>
+  <panels id="CivJQYhYOjmGUCKZuMRofnZoGwA=" x="675" y="675">
+    <screen href="main02.screen#/"/>
+  </panels>
+  <panels id="A1v5-j_CzhzExYt5H1tkTcPHFkc=" x="975" y="675">
+    <screen href="regActivity01.screen#/"/>
+  </panels>
 </story:Storyboard>

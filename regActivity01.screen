@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" measuredWidth="1280" measuredHeight="1024">
+    <screen xsi:type="model:Screen" href="main02.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="7"/>
+      <widgetChanges xsi:type="o:Delete" ref="6"/>
+      <widgets ref="1/3/19">
+        <items ref="@items.0" link="main01.screen"/>
+      </widgets>
+      <widgets ref="1">
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.8"/>
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.7"/>
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.6"/>
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.5"/>
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.4"/>
+        <widgetChanges xsi:type="o:Delete" ref="/@widgets.3"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="5" x="28" y="124" measuredWidth="406" measuredHeight="58">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h1.%20Heading"/>
+    <overrides>
+      <widgets ref="1" text="Регистрация активности"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="6" x="28" y="196" measuredWidth="109" measuredHeight="41">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h3.%20Heading"/>
+    <overrides>
+      <widgets ref="7" text="Название"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="7" x="160" y="194" width="1105" measuredWidth="1105" measuredHeight="45">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Forms.screen#Text%20Input"/>
+    <overrides>
+      <widgets ref="1" width="1105" text="Перчатки 12"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="8" x="28" y="320" measuredWidth="206" measuredHeight="41">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h3.%20Heading"/>
+    <overrides>
+      <widgets ref="7" text="Краткое описание"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="9" x="248" y="320" measuredWidth="1016" measuredHeight="96">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Forms.screen#Text%20Area"/>
+    <overrides>
+      <widgets ref="16" width="1016" height="96" noText="true"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="10" x="28" y="256" measuredWidth="48" measuredHeight="41">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h3.%20Heading"/>
+    <overrides>
+      <widgets ref="7" text="Тип"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="11" x="160" y="254" width="1105" measuredWidth="1105" measuredHeight="45">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Forms.screen#Select"/>
+    <overrides>
+      <widgets ref="24" width="1105" text="Поставка товара без гарантии с открытыми условими"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="12" x="28" y="448" measuredWidth="96" measuredHeight="41">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h3.%20Heading"/>
+    <overrides>
+      <widgets ref="7" text="Куратор"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="13" x="159" y="446" measuredWidth="1105" measuredHeight="45">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Forms.screen#Select"/>
+    <overrides>
+      <widgets ref="24" width="1105" text="Орлова Иван Андреевич"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="14" x="1040" y="512" measuredWidth="140" measuredHeight="34" link="mainWithActivity01.screen">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button%20Primary"/>
+    <overrides>
+      <widgets ref="35" text="Зарегистрировать"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="15" x="1197" y="512" measuredWidth="71" measuredHeight="34" link="main01.screen">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button"/>
+    <overrides>
+      <widgets ref="21" text="Отмена"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="22" x="403" y="512" width="621" measuredWidth="621" measuredHeight="441">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Navigation.screen#Collapse"/>
+    <overrides>
+      <widgets ref="56" width="621" height="441"/>
+      <widgets ref="57" width="579" height="315"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="23" x="28" y="608" measuredWidth="360" measuredHeight="128">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Table%20Condensed"/>
+    <overrides>
+      <widgets ref="53" width="360" text="#, Название этапа, Длительность&#xA;1, [Пресейл], 5&#xA;2, [Подготовка аукциона], 10&#xA;3, [Конкурс], 15">
+        <itemChanges xsi:type="o:Insert">
+          <object xsi:type="model:Item" text="Конкурс"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert">
+          <object xsi:type="model:Item" text="Подготовка аукциона"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert">
+          <object xsi:type="model:Item" text="Пресейл"/>
+        </itemChanges>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:VSlider" id="24" x="387" y="512" height="440" measuredWidth="17" measuredHeight="440"/>
+  <widgets xsi:type="model:Master" id="26" x="24" y="510" measuredWidth="260" measuredHeight="29">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Forms.screen#Checkbox"/>
+    <overrides>
+      <widgets ref="18" text="Сформировать типовую активность"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="27" x="20" y="548" measuredWidth="361" measuredHeight="45">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Forms.screen#Select"/>
+    <overrides>
+      <widgets ref="24" width="361" text="Закупка обмундирования"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="28" x="20" y="735" width="360" height="216" measuredWidth="360" measuredHeight="216">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Popover%20Bottom"/>
+    <overrides>
+      <widgets ref="171" width="360" height="216"/>
+      <widgets ref="173" width="331" height="140" text="Бюджет 1.5 млн. р&#xA;Контакт со стороны заказчика : Серебряков А.Ю&#xA;Статус: выполнен&#xA;Отставание от графика не зафиксировано.&#xA;Ссылка на карточку проекта: перейти (в новой вкладке)"/>
+      <widgets ref="172" text="Описание шаблонной активности"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

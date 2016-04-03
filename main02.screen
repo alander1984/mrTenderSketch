@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" measuredWidth="1280" measuredHeight="1024">
+    <screen xsi:type="model:Screen" href="main01.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="20"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="6" x="232" y="101" measuredWidth="182" measuredHeight="29">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Dropdown%20Header"/>
+    <overrides>
+      <widgets ref="51" text="Активность">
+        <items ref="@items.6" text="Активность"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.5"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.4"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.3"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.2"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.1"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.0"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="7" x="238" y="100" width="178" measuredWidth="178" measuredHeight="30"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
