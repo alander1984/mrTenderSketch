@@ -87,7 +87,7 @@
   </widgets>
   <widgets xsi:type="model:Hotspot" id="18" x="392" y="278" width="877" measuredWidth="877" measuredHeight="30" link="ViewActionModal01.screen"/>
   <widgets xsi:type="model:Hotspot" id="19" y="288" width="368" height="90" measuredWidth="368" measuredHeight="90" link="mainWithActivity01.screen"/>
-  <widgets xsi:type="model:Hotspot" id="20" x="232" y="62" measuredWidth="80" measuredHeight="30"/>
+  <widgets xsi:type="model:Hotspot" id="20" x="232" y="62" measuredWidth="80" measuredHeight="30" link="main02.screen"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

@@ -20,7 +20,7 @@
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Hotspot" id="7" x="238" y="100" width="178" measuredWidth="178" measuredHeight="30"/>
+  <widgets xsi:type="model:Hotspot" id="7" x="238" y="100" width="178" measuredWidth="178" measuredHeight="30" link="regActivity01.screen"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
